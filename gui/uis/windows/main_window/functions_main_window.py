@@ -24,7 +24,8 @@ from qt_core import *
 
 # LOAD UI MAIN
 # ///////////////////////////////////////////////////////////////
-from . ui_main import *
+# from . ui_main import *
+from . ui_main import UI_MainWindow
 
 # FUNCTIONS
 class MainFunctions():

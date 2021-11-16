@@ -16,7 +16,8 @@
 
 # IMPORT PACKAGES AND MODULES
 # ///////////////////////////////////////////////////////////////
-from gui.uis.windows.main_window.functions_main_window import *
+# from gui.uis.windows.main_window.functions_main_window import *
+from gui.uis.windows.main_window.functions_main_window import MainFunctions
 import sys
 import os
 
@@ -27,15 +28,18 @@ from qt_core import *
 # IMPORT SETTINGS
 # ///////////////////////////////////////////////////////////////
 from gui.core.json_settings import Settings
+from gui.core.functions import Functions
 
 # IMPORT PY ONE DARK WINDOWS
 # ///////////////////////////////////////////////////////////////
 # MAIN WINDOW
-from gui.uis.windows.main_window import *
+# from gui.uis.windows.main_window import *
+from gui.uis.windows.main_window.ui_main import UI_MainWindow
+from gui.uis.windows.main_window.setup_main_window import SetupMainWindow
 
 # IMPORT PY ONE DARK WIDGETS
 # ///////////////////////////////////////////////////////////////
-from gui.widgets import *
+# from gui.widgets import *
 
 # ADJUST QT FONT DPI FOR HIGHT SCALE AN 4K MONITOR
 # ///////////////////////////////////////////////////////////////

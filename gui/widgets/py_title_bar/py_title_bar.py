@@ -20,7 +20,7 @@ from qt_core import *
 
 # IMPORT FUNCTIONS
 # ///////////////////////////////////////////////////////////////
-from gui.core.functions import *
+# from gui.core.functions import *
 
 # IMPORT SETTINGS
 # ///////////////////////////////////////////////////////////////
@@ -45,8 +45,8 @@ _old_size = QSize()
 # ///////////////////////////////////////////////////////////////
 class PyTitleBar(QWidget):
     # SIGNALS
-    clicked = Signal(object)
-    released = Signal(object)
+    clicked = PYQT_SIGNAL(object)
+    released = PYQT_SIGNAL(object)
 
     def __init__(
         self,

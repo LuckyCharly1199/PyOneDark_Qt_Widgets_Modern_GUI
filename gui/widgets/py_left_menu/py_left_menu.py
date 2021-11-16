@@ -25,14 +25,14 @@ from . py_div import PyDiv
 
 # IMPORT FUNCTIONS
 # ///////////////////////////////////////////////////////////////
-from gui.core.functions import *
+# from gui.core.functions import *
 
 # PY LEFT MENU
 # ///////////////////////////////////////////////////////////////
 class PyLeftMenu(QWidget):
     # SIGNALS
-    clicked = Signal(object)
-    released = Signal(object)
+    clicked = PYQT_SIGNAL(object)
+    released = PYQT_SIGNAL(object)
 
     def __init__(
         self,

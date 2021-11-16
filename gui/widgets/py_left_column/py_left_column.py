@@ -20,11 +20,11 @@ from qt_core import *
 
 # IMPORT CLOSE BUTTON
 # ///////////////////////////////////////////////////////////////
-from . py_left_button import *
+# from . py_left_button import *
 
 # IMPORT ICON
 # ///////////////////////////////////////////////////////////////
-from . py_icon import *
+# from . py_icon import *
 
 # IMPORT LEFT COLUMN
 # ///////////////////////////////////////////////////////////////
@@ -32,8 +32,8 @@ from gui.uis.columns.ui_left_column import Ui_LeftColumn
 
 class PyLeftColumn(QWidget):
     # SIGNALS
-    clicked = Signal(object)
-    released = Signal(object)
+    clicked = PYQT_SIGNAL(object)
+    released = PYQT_SIGNAL(object)
 
     def __init__(
         self,

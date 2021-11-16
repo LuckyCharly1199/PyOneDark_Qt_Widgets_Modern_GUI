@@ -32,11 +32,11 @@ from gui.core.json_themes import Themes
 
 # IMPORT PY ONE DARK WIDGETS
 # ///////////////////////////////////////////////////////////////
-from gui.widgets import *
+# from gui.widgets import *
 
 # IMPORT SETUP MAIN WINDOW
 # ///////////////////////////////////////////////////////////////
-from . setup_main_window import *
+# from . setup_main_window import *
 
 # IMPORT MAIN WINDOW PAGES / AND SIDE BOXES FOR APP
 # ///////////////////////////////////////////////////////////////

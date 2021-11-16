@@ -17,7 +17,7 @@
 # IMPORT PACKAGES AND MODULES
 # ///////////////////////////////////////////////////////////////
 from gui.widgets.py_table_widget.py_table_widget import PyTableWidget
-from . functions_main_window import *
+# from . functions_main_window import *
 import sys
 import os
 
@@ -35,15 +35,16 @@ from gui.core.json_themes import Themes
 
 # IMPORT PY ONE DARK WIDGETS
 # ///////////////////////////////////////////////////////////////
-from gui.widgets import *
+# from gui.widgets import *
 
 # LOAD UI MAIN
 # ///////////////////////////////////////////////////////////////
-from . ui_main import *
+# from . ui_main import *
+from . ui_main import UI_MainWindow
 
 # MAIN FUNCTIONS 
 # ///////////////////////////////////////////////////////////////
-from . functions_main_window import *
+# from . functions_main_window import *
 
 # PY WINDOW
 # ///////////////////////////////////////////////////////////////
